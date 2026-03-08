@@ -123,3 +123,42 @@ margin-top:40px;
 font-size:14px;
 }
 
+
+/* CONTENEDOR DE CITAS */
+
+.citas-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:20px;
+}
+
+/* TARJETAS DE CITAS */
+
+.citas-container blockquote{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+padding:25px;
+border-radius:15px;
+width:260px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+transition:0.3s;
+border-left:4px solid #00e5ff;
+font-style:italic;
+}
+
+.citas-container blockquote:hover{
+transform:translateY(-8px) scale(1.03);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* AUTOR */
+
+.citas-container span{
+display:block;
+margin-top:15px;
+color:#00e5ff;
+font-weight:bold;
+}
+
