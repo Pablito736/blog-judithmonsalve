@@ -190,8 +190,78 @@ margin-bottom:15px;
 margin-bottom:15px;
 }
 
+/* SECCION FILOSOFOS */
 
+.filosofos{
+padding:60px 20px;
+text-align:center;
 }
+
+.filosofos h2{
+font-size:36px;
+margin-bottom:40px;
+}
+
+.filosofos-grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+}
+
+/* TARJETA */
+
+.filosofo{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(10px);
+border-radius:15px;
+width:220px;
+padding:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+transition:0.3s;
+position:relative;
+overflow:hidden;
+text-align:center;
+}
+
+.filosofo:hover{
+transform:translateY(-8px) scale(1.05);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* IMAGEN */
+
+.filosofo img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+display:block;
+margin-bottom:10px;
+}
+
+/* NOMBRE */
+
+.filosofo h3{
+margin:10px 0;
+color:#00e5ff;
+}
+
+/* RESEÑA OCULTA */
+
+.filosofo p{
+opacity:0;
+font-size:14px;
+transition:0.4s;
+}
+
+/* CUANDO PASAS EL MOUSE */
+
+.filosofo:hover p{
+opacity:1;
+}
+
+
 
 
 
