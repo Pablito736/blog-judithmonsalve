@@ -272,5 +272,12 @@ color:#00e5ff;
 
 
 
+.imagen-filosofo{
+display:block;
+margin:30px auto;
+width:220px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
 
 
