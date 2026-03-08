@@ -239,6 +239,16 @@ opacity:1;
 }
 }
 
+.filosofo p{
+opacity:0;
+font-size:14px;
+margin-top:10px;
+transition:0.4s;
+}
+
+.filosofo:hover p{
+opacity:1;
+}
 
 
 
