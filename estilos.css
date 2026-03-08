@@ -206,4 +206,10 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
+.titulo-seccion{
+text-align:center;
+font-size:32px;
+margin-top:60px;
+letter-spacing:2px;
+}
 
