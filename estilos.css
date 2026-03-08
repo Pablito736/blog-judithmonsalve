@@ -227,54 +227,18 @@ font-size:16px;
 }
 
 
-/* SECCION FILOSOFOS */
-
-.filosofos{
-padding:80px 20px;
-text-align:center;
-background:#111;
-}
-
-.filosofos h2{
-font-size:40px;
-margin-bottom:50px;
-color:white;
-}
-
-.filosofos-grid{
-display:flex;
-justify-content:center;
-gap:40px;
-flex-wrap:wrap;
-}
-
-.filosofo{
-background:#1c1c1c;
-padding:20px;
-border-radius:12px;
-width:200px;
-transition:0.4s;
-box-shadow:0 10px 25px rgba(0,0,0,0.6);
-}
-
-.filosofo img{
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:10px;
-margin-bottom:15px;
-}
-
 .filosofo p{
-color:white;
-font-size:18px;
-font-weight:600;
+opacity:0;
+font-size:14px;
+margin-top:10px;
+transition:0.4s;
 }
 
-.filosofo:hover{
-transform:translateY(-10px) scale(1.05);
-box-shadow:0 15px 40px rgba(0,0,0,0.8);
+.filosofo:hover p{
+opacity:1;
 }
+}
+
 
 
 
