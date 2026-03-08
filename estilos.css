@@ -7,6 +7,7 @@ color:white;
 
 /* ENCABEZADO */
 
+
 header{
 background:linear-gradient(90deg,#141e30,#243b55);
 padding:35px;
@@ -15,13 +16,22 @@ font-size:40px;
 font-weight:bold;
 letter-spacing:3px;
 box-shadow:0 5px 20px rgba(0,0,0,0.6);
+
+position:sticky;
+top:0;
+z-index:1000;
 }
+
 
 /* MENU */
 
 nav{
 background:#0b0b0b;
 padding:10px 0;
+
+position:sticky;
+top:120px;
+z-index:999;
 }
 
 nav ul{
@@ -223,5 +233,6 @@ color:white;
 color:#00e5ff;
 font-size:16px;
 }
+
 
 
