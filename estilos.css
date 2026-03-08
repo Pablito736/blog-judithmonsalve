@@ -173,3 +173,12 @@ padding:30px;
 border-radius:15px;
 box-shadow:0 10px 25px rgba(0,0,0,0.4);
 }
+
+.intro h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.intro p{
+margin-bottom:15px;
+}
