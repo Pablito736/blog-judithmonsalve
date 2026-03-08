@@ -12,9 +12,6 @@ header{
 background:linear-gradient(90deg,#141e30,#243b55);
 padding:35px;
 text-align:center;
-font-size:40px;
-font-weight:bold;
-letter-spacing:3px;
 box-shadow:0 5px 20px rgba(0,0,0,0.6);
 
 position:sticky;
@@ -30,7 +27,7 @@ background:#0b0b0b;
 padding:10px 0;
 
 position:sticky;
-top:120px;
+top:0;
 z-index:999;
 }
 
@@ -233,6 +230,7 @@ color:white;
 color:#00e5ff;
 font-size:16px;
 }
+
 
 
 
