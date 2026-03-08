@@ -190,65 +190,9 @@ margin-bottom:15px;
 margin-bottom:15px;
 }
 
-.imagen-filosofo{
-text-align:center;
-margin:40px;
+
 }
 
-.imagen-filosofo img{
-width:250px;
-border-radius:30px;
-box-shadow:0 20px 30px rgba(0,0,0,0.6);
-transition:0.3s;
-}
-
-.imagen-filosofo img:hover{
-transform:scale(1.05);
-}
-
-.titulo-seccion{
-text-align:center;
-font-size:32px;
-margin-top:60px;
-letter-spacing:2px;
-}
-
-.frase-principal{
-text-align:center;
-font-size:24px;
-font-style:italic;
-margin:20px;
-color:white;
-}
-
-.frase-principal span{
-color:#00e5ff;
-font-size:16px;
-}
-
-
-.filosofo p{
-opacity:0;
-font-size:14px;
-margin-top:10px;
-transition:0.4s;
-}
-
-.filosofo:hover p{
-opacity:1;
-}
-}
-
-.filosofo p{
-opacity:0;
-font-size:14px;
-margin-top:10px;
-transition:0.4s;
-}
-
-.filosofo:hover p{
-opacity:1;
-}
 
 
 
